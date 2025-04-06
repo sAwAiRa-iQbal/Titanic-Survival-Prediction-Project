@@ -11,10 +11,6 @@ The dataset consists of passenger information such as age, sex, ticket class, an
 - ✨ Feature Engineering: New features like 'FamilySize' were created from 'SibSp' and 'Parch' to assess the impact of traveling with family.
 - 🔄 Encoding Categorical Variables: Transformed 'Sex' and 'Embarked' into numeric formats to fit machine learning models.
 
-### 📊 Histogram of Oriented Gradients (HOG) Feature Extraction
-- **HOG Implementation**: We utilized the Histogram of Oriented Gradients (HOG) technique to extract detailed texture and shape information from images associated with the data. This method is pivotal for capturing edge directions and intensities, which are vital for feature discrimination in image-based data.
-- **Purpose**: The HOG features are especially beneficial for enhancing the model's ability to discern subtle variations in the visual data that might correlate with survival patterns, such as distinguishing clothing or accommodation types that are not explicitly labeled in the dataset.
-
 
 ### ➡️ Exploratory Data Analysis (EDA)
 - 🔎 Univariate Analysis: Focused on the distributions of individual features to understand their basic properties.
